@@ -80,7 +80,7 @@ const countdown = setInterval(() => {
 envelope.addEventListener('click', () => {
     if (!isUnlocked) {
         // Mensaje de bloqueo personalizado
-        alert("Tranquila amor, todavía no es San Valentín. 😊❤️");
+        alert("Tranquila bibi, todavía no es San Valentín. 😊❤️");
     } else {
         // Si ya está desbloqueado, permitir cerrar/abrir manualmente con clic
         envelope.classList.toggle('open');
