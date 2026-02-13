@@ -1,6 +1,6 @@
 // 1. CONFIGURACIÓN DE LA FECHA OBJETIVO
 // (Año, Mes-1 (Febrero es 1), Día, Hora, Minutos, Segundos)
-const targetDate = new Date(2026, 1, 14, 0, 0, 0).getTime();
+const targetDate = new Date(2026, 1, 14, 1, 0, 0).getTime();
 
 // 2. REFERENCIAS A ELEMENTOS DEL DOM
 const timerElement = document.getElementById('timer');
